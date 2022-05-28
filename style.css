@@ -39,4 +39,9 @@ a{
     margin: 15px 0;
 }
 
+.container{
+    background: #fff;
+    border-radius: 10px;
+}
+
 
