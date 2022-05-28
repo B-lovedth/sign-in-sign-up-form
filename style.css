@@ -113,3 +113,37 @@ button.ghost{
     border-color: #fff;
 }
 
+.form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6 ease-in-out;
+}
+
+.sign-in-container{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+.sign-up-container{
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.overlay-container{
+    position:absolute;
+    top:0;
+    left:50%;
+    width:50%;
+    height: 100%;
+    overflow:hidden;
+    transition: transform 0.6ms ease-in-out;
+    z-index: 100;
+}
+
+.overlay{
+    background: #ff416c;
+    background: linear-gradient(to right,#ff4b2b,#ff416c) no-repeat 0 0 / cover;
+}
