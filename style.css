@@ -98,5 +98,18 @@ button{
     text-transform: uppercase;
     transition: transform 80ms ease-in;
     cursor: pointer;
-
 }
+
+button:active{
+    transform: scale(0.95);
+}
+
+button:focus{
+    outline: none;
+}
+
+button.ghost{
+    background: transparent;
+    border-color: #fff;
+}
+
