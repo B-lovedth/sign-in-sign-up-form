@@ -110,6 +110,14 @@ button.ghost{
     background: transparent;
     border-color: #fff;
 }
+.sign-up{
+    background-color:#00F7FF ;
+    border-color: #00F7FF;
+}
+.sign-in{
+    background-color: #FF0800;
+    border-color: #FF0800;
+}
 
 .form-container{
     position: absolute;
@@ -143,7 +151,7 @@ button.ghost{
 
 .overlay{
     background: #ff416c;
-    background: linear-gradient(to right,#ff4b2b,#ff416c) no-repeat 0 0 / cover;
+    background: linear-gradient(to right, #00F7FF, #FF0800) no-repeat 0 0 / cover;
     color: white;
     position: relative;
     left: -100%; 
